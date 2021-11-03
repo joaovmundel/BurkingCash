@@ -1,0 +1,30 @@
+#Lista dos materiais: https://helpch.at/docs/1.12.2/org/bukkit/Material.html
+#Slots iniciam do 0
+#Formatacao da config:
+#Slot:
+#  Item: "Nome do Item"
+#  Price: Preço em cash
+#  Command: Comando para executar quando player clickar
+#
+
+#Drivers: mariadb/sqlite
+MySQL:
+  Driver: "sqlite"
+  User: "root"
+  Password: ""
+  Host: "127.0.0.1"
+  Db: "cash"
+
+Itens:
+  0:
+    Item: "DIAMOND_SWORD"
+    Name: "&6&lEspada Zeus"
+    Qtd: 1
+    Price: 0
+    Commands:
+      - 'give at player'
+    Enchants:
+      - 'PROTECTION_ENVIRONMENTAL:4'
+    Lore:
+      - '&6Espada braba'
+      - '&6Custa @price @star'

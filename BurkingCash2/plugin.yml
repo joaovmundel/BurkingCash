@@ -1,0 +1,10 @@
+name: "BurkingCash"
+api: []
+version: "1.1"
+api-version: 1.13
+main: me.joao.cash.Main
+commands:
+  cash:
+    description: comando principal
+  devtestecash:
+    description: comando temporario
